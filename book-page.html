@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ореанда Блю</title>
+    <link rel="stylesheet" href="./book-page.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <div class="header-logo">
+                <img src="./images/logo1.png" alt="">
+            </div>
+            <div class="burger-box">
+                <input type="checkbox" id="burger">
+                <label for="burger"><img src="./images/burger.png" alt=""></label>
+                <div class="buttons">
+                    <a href="index.html">Головна</a>
+                    <a href="about.html">Про готель</a>
+                    <a href="rooms.html">Номери</a>
+                    <a href="gallary.html">Галерея</a>
+                    <a href="book-page.html" class="active">Бронювання</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="section one">
+            <div class="zatemnenya"></div>
+            <div class="content">
+                <div class="text-logo">
+                    <h1>Бронювання</h1>
+                    <div class="order1">
+                        <img src="./images/logo1.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section two">
+            <div class="nav-bar">
+                <div class="box-2i">
+                    <div class="item onee">
+                        <h2>Головна</h2>
+                    </div>
+                    <div class="item twoo">
+                        <h2>Бронювання</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="booking-main">
+                <div class="h1-box">
+                    <div class="h11">
+                        <h1>Для того, щоб забронювати номер в готелі «<span class="oreand-text">Ореанда Блю</span>», Вам достатньо залишити
+                            заявку на сайті, і протягом
+                            доби ми надішлемо вам докладну інформацію з питань оплати та заїзду або наш менеджер
+                            зв'яжеться з вами для уточнення
+                            питань.</h1>
+                    </div>
+                </div>
+                <div class="booking-box">
+                    <form class="row g-3 needs-validation" novalidate>
+                        <div class="col-md-4">
+                            <label for="validationCustom01" class="form-label .text-secondary">Ім'я</label>
+                            <input type="text" class="form-control" id="validationCustom01" value="Ваше Ім'я:  " required>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="validationCustom02" class="form-label">Прізвище</label>
+                            <input type="text" class="form-control" id="validationCustom02" value="Ваше прізвище:  " required>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="validationCustomUsername" class="form-label">Номер телефону</label>
+                            <div class="input-group has-validation">
+                                <span class="input-group-text" id="inputGroupPrepend">+380</span>
+                                <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend"
+                                    required>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="validationCustom03" class="form-label">Місто</label>
+                            <input type="text" class="form-control" id="validationCustom03" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="validationCustom04" class="form-label">Номери: </label>
+                            <select class="form-select" id="validationCustom04" required>
+                                <option selected disabled value="">Виберіть номер для бронювання...</option>
+                                <option>АПАРТАМЕНТИ</option>
+                                <option>ЛЮКС</option>
+                                <option>CТАНДАРТ</option>
+                                <option>...</option>
+                            </select>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                                <label class="form-check-label" for="invalidCheck">
+                                    Я не приймаю положення угоди користувача та не даю згоду на обробку моїх персональних даних :)
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <button class="btn btn-primary" type="submit">Надіслати заявку!</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-box">
+            <div class="footer itm1">
+                <a href="./rooms.html">
+                    <div class="circle-box1">
+                        <div class="circle-box2">
+                            <p>Обрати номер</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="footer itm2">
+                <div class="itm2-box1">
+                    <h2 class="grey">Ми знаходимсь</h2>
+                </div>
+                <div class="itm2-box1">
+                    <p>смт. Східниця</p>
+                    <p>вул. Ф. Столяра, 31, Львівська область</p>
+                </div>
+                <div class="section1-buttons">
+                    <a
+                        href="https://www.google.com/maps/place/Belgrano+II+Base,+%D0%90%D0%BD%D1%82%D0%B0%D1%80%D0%BA%D1%82%D0%B8%D0%BA%D0%B0/@-77.8743041,-34.637677,15z/data=!4m6!3m5!1s0xbaf6581be41e2fff:0x789b5059a5be3388!8m2!3d-77.874309!4d-34.6273773!16zL20vMDYxNTZx?entry=ttu&g_ep=EgoyMDI1MTIwMi4wIKXMDSoASAFQAw%3D%3D">Як
+                        дістатись?</a>
+                </div>
+            </div>
+            <div class="footer itm3">
+                <h2 class="grey">Зв'язатись з нами</h2>
+                <a href="#">+38 (08225) 730 88</a>
+                <a href="#">+38 (099) 699-08-88</a>
+                <a href="#">+38 (067) 259-08-88</a>
+                <a href="#">+38 (063) 240-08-88</a>
+            </div>
+            <div class="footer itm4">
+                <div class="itm4-s"><a href="https://youtube.com"><img src="./images/youtube.png" alt=""></a></div>
+                <div class="itm4-s"><a href="https://facebook.com"><img src="./images/facebook.png" alt=""></a></div>
+                <div class="itm4-s"><a href="https://instagram.com"><img src="./images/insta.png" alt=""></a></div>
+                <div class="itm4-s"><a href="https://twitter.com"><img src="./images/twitter.png" alt=""></a></div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
